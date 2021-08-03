@@ -28,3 +28,14 @@ nav a{
     font-weight: 600;   
     margin: 0 15px;
 }
+.openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+.closeMenu{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
