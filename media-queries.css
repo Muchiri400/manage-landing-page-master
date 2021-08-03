@@ -1,4 +1,12 @@
-
+:root {
+    --bright-red: hsl(12, 88%, 59%);
+    --Dark-Blue: hsl(228, 39%, 23%);
+    --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+    --Very-Dark-Blue: hsl(233, 12%, 13%);
+    --Very-Pale-Red: hsl(13, 100%, 96%);
+    --Vary-Light-Gray: hsl(0, 0%, 98%);
+  }
+  
 @media ( max-width: 576px){
     body{
         background-size: 92%;
@@ -58,6 +66,7 @@
     }
     .description p{
         padding-right: 0;
+        line-height: 1.5;
     }
     .hero-btn, .description p{
         text-align: center;
@@ -86,8 +95,15 @@
     .main-left h1, .main-left p{
         text-align: center;
     }
+    .main-left p{
+        line-height: 1.5;
+    }
     .main-right-txt{
         padding-left: 0rem;
+        line-height: 1.6;
+    }
+    .p-txt{
+        margin-bottom: 2rem;
     }
     .content{
         margin-bottom: 10px;
