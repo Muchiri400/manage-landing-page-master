@@ -50,6 +50,12 @@
         max-width: 550px;
         padding: 20px 15px;
     }
+    .max-nav{
+        padding: 10px 15px;
+    }
+    .logo-img{
+        padding-top: 15px;
+    }
 
     .hero{
         display: flex;
