@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+:root{
+    --bright-red: hsl(12, 88%, 59%);
+    --Dark-Blue: hsl(228, 39%, 23%);
+    --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+    --Very-Dark-Blue: hsl(233, 12%, 13%);
+    --Very-Pale-Red: hsl(13, 100%, 96%);
+    --Vary-Light-Gray: hsl(0, 0%, 98%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: var(--Vary-Light-Gray);
+    background-image: url(images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 90% 0%;
+}
+
+.max{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* Buttons */
+.btn{
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: #f25f3a;
+  color: #fafafa;
+  font-weight: 700;
+  box-shadow: 0 5px 5px rgba(243, 97, 60, 0.2);
+}
+.btn-1{
+    margin-right: 1rem;
+    padding: 0.65rem 1.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+.input-btn{
+    padding: 0.65rem 1.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.btn-cont{
+    text-align: center;
+}
+.heroo-btn{
+    text-align: start;
+}
+
+.testimonial-btn a{
+    color: #fff;
+}
+.footer-btn{
+    background-color: #fff;
+    color: #f25f3a;
+}
