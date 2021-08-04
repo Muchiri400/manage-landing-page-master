@@ -28,7 +28,8 @@
 .team-txt {
   width: 50%;
 }
-.team-txt h1 {
+.team-txt h2 {
+  font-size: 2rem;
   color: #fff;
 }
 
